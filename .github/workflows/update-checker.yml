@@ -52,7 +52,7 @@ jobs:
         event-type: Source Code Update
 
     - name: 删除工作流程运行  
-      uses: Mattraks/delete-workflow-runs@v2.0.3
+      uses: Mattraks/delete-workflow-runs@main
       with:
         retain_days: 0
         keep_minimum_runs: 1
