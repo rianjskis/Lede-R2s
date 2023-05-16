@@ -9,7 +9,7 @@
 # Description: Source code update checker
 #
 
-name: Lede自动更新
+name: Lede-自动更新
 
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
