@@ -16,6 +16,7 @@ sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci-s
 sed -i '/CYXluq4wUazHjmCDBCqXF/d' package/lean/default-settings/files/zzz-default-settings    # 设置密码为空
 rm -rf feeds/luci/themes/luci-theme-argon    # 删除自带argon
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git feeds/luci/themes/luci-theme-argon    # 替换新版argon
+# 调整argon登录框为居中
 sed -i "/.login-page {/i\\
 .login-container {\n\
   margin: auto;\n\
