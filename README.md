@@ -2,7 +2,7 @@
 
 用户名: root
 
-密码: password
+密码: 空
 
 **English** | [中文](https://p3terx.com/archives/build-openwrt-with-github-actions.html)
 
