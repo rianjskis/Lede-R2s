@@ -55,6 +55,5 @@ sed -i "/.login-page {/i\\
 .ftc {\n\
   bottom: 10px!important;\n\
   right: 10px!important;\n\
-
 }" feeds/luci/themes/luci-theme-argon/htdocs/luci-static/argon/css/cascade.css
 sed -i "s/margin-left: 0rem \!important;/margin-left: auto\!important;/g" feeds/luci/themes/luci-theme-argon/htdocs/luci-static/argon/css/cascade.css
