@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Lede-R2S
+name: Lede-R2S-docker
 on:
   repository_dispatch:
   workflow_dispatch:
