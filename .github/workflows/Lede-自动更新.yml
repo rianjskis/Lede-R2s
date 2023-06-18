@@ -14,11 +14,12 @@ name: Lede-自动更新
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
-
+  TZ: Asia/Shanghai
+  
 on:
   workflow_dispatch:
   schedule:
-    - cron: 30 0 * * 7
+    - cron: 0 9 * * SAT
 
 jobs:
   check:
