@@ -15,5 +15,3 @@
 
 # Add a feed source
 echo 'src-git small8 https://github.com/kenzok8/small-package' >>feeds.conf.default
-git clone https://github.com/sirpdboy/luci-app-ddns-go.git package/ddns-go
-git clone https://github.com/natelol/luci-app-beardropper package/luci-app-beardropper
