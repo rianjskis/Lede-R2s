@@ -12,7 +12,7 @@
 name: Lede-自动更新
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/lede
+  REPO_URL: https://github.com/coolsnowwolf/lede.git
   REPO_BRANCH: master
   TZ: Asia/Shanghai
   
