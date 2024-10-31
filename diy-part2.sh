@@ -15,3 +15,4 @@ sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci-n
 sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci-ssl-nginx/Makefile   # 选择argon为默认主题
 sed -i '/CYXluq4wUazHjmCDBCqXF/d' package/lean/default-settings/files/zzz-default-settings    # 设置密码为空
 rm -rf feeds/luci/themes/luci-theme-bootstrap  # 删除默认bootstrap主题
+git clone --depth=1 https://github.com/fw876/helloworld.git package/helloworld
